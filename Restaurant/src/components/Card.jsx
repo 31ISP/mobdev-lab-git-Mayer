@@ -1,9 +1,9 @@
-const Card = ({image,title,category,weight,descripton,price,rating}) => {
+const Card = ({image,title,category,weight,descripton,price,rating, image}) => {
     return (
 <article className="dish-card">
           <img
             className="dish-card__image"
-            src="https://placehold.co/400x220?text=Margherita"
+            src={image}
             alt='${}'
           />
           <div className="dish-card__body">
